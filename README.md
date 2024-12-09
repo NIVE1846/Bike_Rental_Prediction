@@ -1,12 +1,15 @@
 Bike-Sharing Demand Prediction
+
 This repository contains a comprehensive data analysis and predictive modeling project for a bike-sharing startup. The goal is to forecast bike rental demand based on factors like weather conditions, season, and time of day. The insights aim to help the company optimize bike availability and improve customer satisfaction.
 
 Project Overview
+
 The bike-sharing business faces fluctuating rental demands, often leading to either shortages or excess inventory. To address this issue, this project utilizes a publicly available dataset to build predictive models and provide actionable insights.
 
 Key objectives include:
 
-Data Analysis: Understanding rental trends and patterns.
+Data Analysis:
+Understanding rental trends and patterns.
 Predictive Modeling: Using machine learning models to predict demand.
 Visualization: Creating engaging and insightful graphs.
 Recommendations: Providing strategies for better bike availability.
