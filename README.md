@@ -1,54 +1,57 @@
-Bike-Sharing Demand Prediction
+# Bike-Sharing Demand Prediction Project  
 
-This repository contains a comprehensive data analysis and predictive modeling project for a bike-sharing startup. The goal is to forecast bike rental demand based on factors like weather conditions, season, and time of day. The insights aim to help the company optimize bike availability and improve customer satisfaction.
+This project focuses on predicting bike rental demand for a bike-sharing startup using machine learning models and data analysis. By understanding key factors that influence demand, the company can optimize bike availability, reduce shortages, and enhance customer satisfaction.  
 
-Project Overview
+---
 
-The bike-sharing business faces fluctuating rental demands, often leading to either shortages or excess inventory. To address this issue, this project utilizes a publicly available dataset to build predictive models and provide actionable insights.
+## Project Description  
 
-Key objectives include:
+Bike-sharing services often face challenges due to fluctuating demand. This project leverages a publicly available dataset to analyze bike rental patterns, identify trends, and build predictive models. Insights derived from the analysis guide decision-making for inventory management and strategic planning.  
 
-Data Analysis:
-Understanding rental trends and patterns.
-Predictive Modeling: Using machine learning models to predict demand.
-Visualization: Creating engaging and insightful graphs.
-Recommendations: Providing strategies for better bike availability.
-Dataset
-The dataset used in this project contains information about hourly bike rentals, weather conditions, and time-related features.
+---
 
-Key features include:
+## Features of the Project  
 
-temp: Normalized temperature.
-hum: Normalized humidity.
-hr: Hour of the day.
-season: Seasonal information (spring, summer, fall, winter).
-cnt: Total bike rentals.
-Methodology
-Data Preprocessing:
+1. **Exploratory Data Analysis (EDA)**:  
+   - Correlation heatmaps to explore relationships between variables.  
+   - Graphs to highlight trends, such as rentals by hour and rentals vs. temperature.  
 
-Cleaning and transforming data for analysis.
-One-hot encoding for categorical variables.
-Exploratory Data Analysis (EDA):
+2. **Predictive Modeling**:  
+   - Built models using **Linear Regression** and **Random Forest Regressor**.  
+   - Evaluated model performance using **Root Mean Squared Error (RMSE)**.  
 
-Correlation heatmaps.
-Visualizations for rental patterns by hour and temperature.
-Model Building:
+3. **Visualization and Reporting**:  
+   - Created clear and engaging visualizations to present insights.  
+   - Developed dashboards to make the results more accessible and actionable.  
 
-Implemented Linear Regression and Random Forest Regressor.
-Evaluated models using Root Mean Squared Error (RMSE).
-Visualization and Reporting:
+4. **Recommendations**:  
+   - Provided strategies on when to scale up bike availability based on predicted demand.  
 
-Created dashboards to present insights.
-Compared actual vs. predicted rentals using visual plots.
-Key Visualizations
-Correlation Heatmap: Identifies relationships between features.
-Bike Rentals by Hour: Shows peak rental times.
-Rentals vs. Temperature: Highlights how temperature impacts demand.
-Actual vs. Predicted Rentals: Compares model predictions with actual data.
-Results
-Random Forest Regressor outperformed Linear Regression in prediction accuracy.
-Recommendations provided for scaling bike availability during high-demand hours.
-Future Work
-Improve model accuracy with advanced algorithms.
-Incorporate real-time data for dynamic prediction.
-Enhance dashboards for better user interaction
+---
+
+## Dataset  
+
+The dataset includes hourly data on bike rentals along with associated weather and time features.  
+
+**Key features include:**  
+- `temp`: Normalized temperature.  
+- `hum`: Normalized humidity.  
+- `hr`: Hour of the day.  
+- `holiday`: Whether the day is a holiday or not.  
+- `cnt`: Total bike rentals.  
+
+---
+
+## Key Insights  
+
+- Rental demand peaks during specific hours of the day and varies with temperature and season.  
+- **Random Forest Regressor** provided better prediction accuracy compared to Linear Regression.  
+- Strategic recommendations were made to address high-demand periods and optimize bike inventory.  
+
+---
+
+## How to Use  
+
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/your-username/bike-sharing-demand-prediction.git  
